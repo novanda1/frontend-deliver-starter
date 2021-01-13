@@ -1,0 +1,14 @@
+// framework
+@import "./vendor/tailwindcss";
+
+// Base
+@import "./base/variables";
+@import "./base/base";
+@import "./base/typography";
+
+// Components
+@import "./components/nav";
+@import "./components/main-content";
+
+// Section in Pages
+// - Home

@@ -1,0 +1,47 @@
+{
+  "name": "aia-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "Novanda Ahsan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^10.2.1",
+    "browser-sync": "^2.26.12",
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "lodash": "^4.17.19",
+    "lodash.mergewith": ">=4.6.2",
+    "mixin-deep": "^2.0.1",
+    "node-sass": "^4.14.1",
+    "postcss": "^8.2.4",
+    "set-value": "^3.0.2",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.18.0",
+    "tailwindcss": "^2.0.2",
+    "webpack": "^5.13.0",
+    "webpack-stream": "^6.1.1"
+  },
+  "dependencies": {
+    "imagesloaded": "^4.1.4"
+  }
+}

@@ -1,0 +1,66 @@
+// /*------------------
+// # Variables
+// *------------------*/
+
+/*
+ * This file includes default variables to get going quickly on a project.
+ * File includes:
+ * - Base font family
+ * - Base font sizes
+ * - Heading spacing
+ * - Paragraph spacing
+ * - Base line height
+ * - Base colors
+*/
+
+/*
+ * Base font family
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+$base-font-family: "Poppins", sans-serif !default;
+
+/*
+ * Base font sizes
+*/
+
+$base-font-size: 16px !default;
+$hero-font-size: 72px !default;
+
+$h1-size: 48px !default;
+$h2-size: 30px !default;
+$h3-size: 24px !default;
+$h4-size: 20px !default;
+$h5-size: 16px !default;
+$h6-size: 14px !default;
+
+/*
+ * Heading spacing
+*/
+
+$heading-spacing: 25px 0 10px !default;
+
+/*
+ * Paragraph spacing
+*/
+
+$paragraph-spacing: 0 0 25px !default;
+
+/*
+ * Base line height
+*/
+
+$base-line-height: 1.5 !default;
+
+/*
+ * Base colors
+*/
+
+$color-white: #fff !default;
+$color-black: #000 !default;
+$color-red: #cf234b !default;
+$color-yellow: #f7c926 !default;
+$color-green: #00a912 !default;
+$color-purple: #4d4794 !default;
+$text-color: #333d47 !default;
